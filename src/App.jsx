@@ -9,7 +9,7 @@ function App() {
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
-					<Route path="/Arnifi" element={<Hero />} />
+					<Route path="/arnifi" element={<Hero />} />
 					<Route path="/chat" element={<Chatbot />} />
 				</Routes>
 			</BrowserRouter>
