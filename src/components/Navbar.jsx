@@ -11,8 +11,8 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar ">
-			<div className="container max-w-screen-lg lg:mx-auto px-6">
+		<nav className="navbar w-screen">
+			<div className="container max-w-screen-lg lg:mx-auto px-8 lg:px-0">
 				<div className="logo lg:text-3xl text-2xl font-bold">Arnifi</div>
 				<div className="menu-icon" onClick={handleShowNavbar}>
 					{showNavbar ? <IoCloseSharp /> : <RxHamburgerMenu />}
@@ -27,7 +27,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<NavLink to="/Chat" className="bg-darkblue rounded-md p-3 text-white">
-								ChatBot
+								Arni
 							</NavLink>
 						</li>
 					</ul>

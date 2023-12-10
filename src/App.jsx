@@ -5,7 +5,7 @@ import Chatbot from "./components/Chatbot";
 
 function App() {
 	return (
-		<div className="mx-2">
+		<div>
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
